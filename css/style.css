@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Montserrat";
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #181818;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+.jordanshoes {
+    width: 100%;
+    height: 50px;
+    background-color: #F9F9F9;
+}
+
+h1 {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 12px;
+}
+
+.fundo {
+  /*  background-color: #181818;*/
+    width: 100%;
+    height: 340px;
+}
+
+.fundo-image {
+    background:rgba(0,0,0,0.4)url(/img/Mask\ Group.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 340px;
+    position: relative;
+}
+
+.fundo-image h1 {
+  position: absolute;
+  top: 103px;
+  left: 55px;
+  font-size: 50px;
+  color: white;
+  
+}
+
+.fundo-image p {
+    position: absolute;
+    top: 175px;
+    left: 42px;
+    font-size: 25px;
+    color: white;
+    line-height: 38.4px;
+    font-weight: 500;
+    text-align:justify;
+}
+
+/*CONF DESTAQUE*/
+.galery-container {
+    width: 100%;
+    padding: 50px 0;
+    
+}
+
+.filho {
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.galery-container h1 {
+    font-size: 35px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.galery-container .neto a {
+    padding: 10px;
+    background: #EBE9EA;
+    max-width: 100%;
+    
+}
+
+.galery-container .neto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.galery-container .image {
+    flex: flex;
+    overflow: hidden;
+    cursor: pointer;    
+}
+
+img {
+    max-width: 100%;
+     display: block;
+}
+.galery-container .image img {
+   width: 250px;
+   height: 150px;
+   transition: 0.6s;
+   
+}
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #181818;
+}
+
+
+  
